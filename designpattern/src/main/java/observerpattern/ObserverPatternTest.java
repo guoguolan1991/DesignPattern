@@ -1,3 +1,5 @@
+package observerpattern;
+
 import observerpattern.CurrentConditionsDisplay;
 import observerpattern.ForecastDisplay;
 import observerpattern.WeatherData;
