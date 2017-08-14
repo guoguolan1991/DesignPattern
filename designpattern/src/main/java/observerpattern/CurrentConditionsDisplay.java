@@ -1,7 +1,5 @@
 package observerpattern;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 /**
  * Created by Miller on 2017/8/9 0009.
  * 当前天气显示板

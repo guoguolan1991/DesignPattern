@@ -4,6 +4,8 @@ import observerpattern.CurrentConditionsDisplay;
 import observerpattern.ForecastDisplay;
 import observerpattern.WeatherData;
 
+import java.util.Observable;
+import java.util.Observer;
 import java.util.ArrayList;
 import java.util.List;
 

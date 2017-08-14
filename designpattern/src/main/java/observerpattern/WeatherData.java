@@ -7,9 +7,9 @@ import java.util.List;
  * Created by Miller on 2017/8/9 0009.
  * 天气数据类
  */
-public class WeatherData implements Subject{
+public class WeatherData<T extends Observer> implements Subject<T>{
 
-    private List<Observer> observers;
+    private List<T> observers;
 
     private float temperature;
     private float humidity;
@@ -18,20 +18,20 @@ public class WeatherData implements Subject{
     private List<Float> forecastTemperatures;
 
     public WeatherData(){
-        this.observers = new ArrayList<Observer>();
+        this.observers = new ArrayList<T>();
     }
 
 
-    public void registerObserver(Observer observer){
+    public void registerObserver(T observer){
         this.observers.add(observer);
     }
 
-    public void removeObserver(Observer observer){
+    public void removeObserver(T observer){
         this.observers.remove(observer);
     }
 
     public void notifyobservers() {
-        for(Observer observer : observers){
+        for(T observer : observers){
             observer.update();
         }
     }
