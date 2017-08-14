@@ -6,8 +6,13 @@ package proxypattern;
  */
 public class Proxy implements Subject{
 
+    Subject subject;
+
+    public Proxy(Subject subject) {
+        this.subject = subject;
+    }
+
     public void buyBook(){
-        RealSubject subject = new RealSubject();
         subject.buyBook();
     }
 }

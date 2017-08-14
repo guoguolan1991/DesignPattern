@@ -5,7 +5,8 @@ package proxypattern;
  */
 public class ProxyPatternTest {
     public static void main(String[] args) {
-        Subject subject = new Proxy();
+        Subject target = new RealSubject();
+        Subject subject = new Proxy(target);
         subject.buyBook();
     }
 }
