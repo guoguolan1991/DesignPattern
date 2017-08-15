@@ -7,6 +7,7 @@
 #### Builder Pattern（建造者模式）
 # 结构型设计模式：
 #### Adapter Pattern（适配器模式）
+将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以在一起工作。
 #### Bridge Pattern（桥接模式）
 #### Composite Pattern（组合模式）
 #### Decorator Pattern（装饰者模式）
