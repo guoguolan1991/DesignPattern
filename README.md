@@ -2,6 +2,7 @@
 # 创建型设计模式：
 #### Singleton Pattern（单例模式）
 #### Prototype Pattern（原型模式）
+用原型实例指定创建对象的种类，并通过拷贝这些原型创建新的对象。
 #### Factory Method Pattern（工厂方法模式）
 #### Abstract Factory Pattern（抽象工厂模式）
 #### Builder Pattern（建造者模式）
@@ -10,6 +11,12 @@
 将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以在一起工作。
 #### Bridge Pattern（桥接模式）
 #### Composite Pattern（组合模式）
+组合模式的环境为：
+    在设计中想表示对象的“部分－整体”层次结构；希望用户忽略组合对象与单个对象的不同，统一地使用组合结构中的所有对象。
+看下组合模式的组成。
+1) 抽象构件角色Component：它为组合中的对象声明接口，也可以为共有接口实现缺省行为。
+2) 树叶构件角色Leaf：在组合中表示叶节点对象——没有子节点，实现抽象构件角色声明的接口。
+3) 树枝构件角色Composite：在组合中表示分支节点对象——有子节点，实现抽象构件角色声明的接口；存储子部件。
 #### Decorator Pattern（装饰者模式）
 #### Façade Pattern（外观模式）
 #### Flyweight Pattern（享元模式）
