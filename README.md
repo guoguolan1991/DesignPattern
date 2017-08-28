@@ -52,6 +52,8 @@ Flyweight在拳击比赛中指最轻量级，即“蝇量级”或“雨量级�
 #### Interpreter Pattern（解释器模式）
 #### Iterator Pattern（迭代器模式）
 #### Mediator Pattern（中介者模式）
+用一个中介对象来封装一系列的对象交互。中介者使各对象不需要显式地相互引用，
+从而使其耦合松散，而且可以独立地改变它们之间的交互。
 #### Memento Pattern（备忘录模式）
 #### Observer Pattern（观察者模式）
 #### State Pattern（状态模式）
